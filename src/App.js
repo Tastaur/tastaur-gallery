@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import {Provider} from 'react-redux'
+import store from './store/reduxStore'
+import {HashRouter, Route} from 'react-router-dom'
+import Header from './component/Header/Header'
+import Footer from './component/Footer/Footer'
+import Body from './component/Body/Body'
+import UploadForm from './component/UploadForm/UploadForm'
+import ItemContainer from './component/Item/ItemContainer'
+import {DragDropContext, Droppable, Draggable} from 'react-beautiful-dnd'
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div className="App">
+        <div className='wrapper'>
+          <Header/>
+          <Body/>
+          <UploadForm/>
+          <Footer/>
+          <Route path={`/id:id?`} render={() => {
+            return <ItemContainer/>
+          }}
+          />
+        </div>
+      </div>
+  )
 }
 
-export default App;
+const GalleryApp = (props) => {
+  return <HashRouter>
+    <Provider store={store}>
+      <App/>
+    </Provider>
+  </HashRouter>
+}
+
+export default GalleryApp

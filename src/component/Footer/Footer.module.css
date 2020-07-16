@@ -1,0 +1,9 @@
+.footer{
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.footer .title{
+    color: rgba(0, 0, 0, 0.3);
+}

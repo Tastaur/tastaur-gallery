@@ -1,0 +1,52 @@
+.uploadContainer {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+}
+
+.input, .textarea{
+    width: 600px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: 2px solid dimgray;
+    font-size: 18px;
+}
+
+.label{
+    margin-left: 15px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.form {
+    width: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    text-align: left;
+}
+.title{
+    margin-bottom: 10px ;
+}
+.button{
+    width: 200px;
+    padding: 10px;
+    background: none;
+    border: 2px solid dimgray;
+    border-radius: 20px;
+    outline: none;
+    color: dimgray;
+    font-family: 'YanoneKaffeesatz';
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+
+}
+.button:active{
+    background: ivory;
+}

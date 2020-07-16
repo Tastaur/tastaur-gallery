@@ -1,0 +1,44 @@
+.container {
+    max-width: 300px;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container .title {
+    width: 200px;
+    white-space: pre-wrap;
+    font-size: 20px;
+    margin: 0px auto 10px;
+}
+
+.container .img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.texarea {
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: 2px solid dimgray;
+    font-size: 14px;
+    background: initial;
+    font-family: 'YanoneKaffeesatz';
+}
+
+
+.button {
+    width: 30px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    transition: .2s;
+}
+.container:hover .button{
+    opacity: 1;
+}
+

@@ -1,0 +1,10 @@
+.body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.body .title {
+    font-size: 30px;
+}
