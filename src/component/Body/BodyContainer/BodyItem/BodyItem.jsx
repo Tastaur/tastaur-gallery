@@ -15,7 +15,7 @@ const BodyItem = (props) => {
   }
   return <div className={s.container}>
     <NavLink to={`/id${props.id}`}>
-      <img onClick={setImage} srcSet={`${props.src} 2x, ${imgDefault} 1x`} className={s.img} alt='
+      <img onClick={setImage} srcSet={`${imgDefault} 1x, ${props.src} 2x`} className={s.img} alt='
 if you see this message, then something went wrong'
       /></NavLink>
 
