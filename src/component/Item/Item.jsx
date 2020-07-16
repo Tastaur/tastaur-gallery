@@ -13,7 +13,7 @@ const Item = (props) => {
   return <div onClick={closeImg}>
     {props.gallery.showImage ?
         <div className={s.container}>
-          <img srcSet={`${imgDefault} 1x, ${props.gallery.showImage[0].src} 2x`} className={s.img} alt=''/>
+          <img src={props.gallery.showImage[0].src} className={s.img} alt=''/>
         </div>
         : <Redirect to={`/`}/>
     }

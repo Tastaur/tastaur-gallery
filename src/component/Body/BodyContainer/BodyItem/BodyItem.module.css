@@ -38,8 +38,7 @@
     opacity: 0;
     transition: .2s;
 }
-
-.container:hover .button {
+.container:hover .button{
     opacity: 1;
 }
 
