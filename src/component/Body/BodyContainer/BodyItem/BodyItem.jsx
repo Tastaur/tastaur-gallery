@@ -3,6 +3,7 @@ import s from './BodyItem.module.css'
 import ChangeCommentContainer from './ChangeCommentContainer'
 import {NavLink} from 'react-router-dom'
 import deleteButton from '../../../../assets/garbage.png'
+import imgDefault from '../../../../assets/unnamed.png'
 
 const BodyItem = (props) => {
   const [editMode, setEditMode] = useState(false)
@@ -15,7 +16,7 @@ const BodyItem = (props) => {
   return <div className={s.container}>
 
     <NavLink to={`/id${props.id}`}>
-      <img onClick={setImage} src={props.src} className={s.img} alt='
+      <img onClick={setImage} srcSet={`${props.src} 2x, ${imgDefault} 1x`} className={s.img} alt='
 if you see this message, then something went wrong'
       /></NavLink>
 
