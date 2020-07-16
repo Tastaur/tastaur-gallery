@@ -1,9 +1,10 @@
-.header{
+.header {
     width: 600px;
     margin: 0 auto;
     padding: 15px 0;
     text-align: center;
 }
-.header .title{
+
+.header .title {
     font-size: 36px;
 }

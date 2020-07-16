@@ -1,11 +1,13 @@
 
-.error span{
+.error span {
     color: red;
 }
-.formControl textarea{
-        resize: none;
+
+.formControl textarea {
+    resize: none;
 }
-.errorContainer{
+
+.errorContainer {
     height: 20px;
     padding: 5px;
 }

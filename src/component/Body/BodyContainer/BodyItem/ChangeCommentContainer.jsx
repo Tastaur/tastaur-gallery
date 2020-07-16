@@ -4,9 +4,7 @@ import ChangeComment from './ChangeComment'
 import {editComment} from '../../../../store/galeryReducer'
 
 let mapStateToProps = (state) => {
-  return {
-
-  }
+  return {}
 }
 
-export default  connect(mapStateToProps, { editComment})(ChangeComment)
+export default connect(mapStateToProps, {editComment})(ChangeComment)

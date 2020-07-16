@@ -5,9 +5,8 @@ import {withRouter} from 'react-router-dom'
 import Item from './Item'
 
 let mapStateToProps = (state) => ({
-    gallery: state.gallery
+  gallery: state.gallery,
 })
-
 
 
 export default compose(

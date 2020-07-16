@@ -10,24 +10,22 @@ const BodyItem = (props) => {
   const setImage = () => {
     props.showImage(props.id)
   }
-  const deleteImage = () =>{
+  const deleteImage = () => {
     props.deletePost(props.id)
   }
   return <div className={s.container}>
-
     <NavLink to={`/id${props.id}`}>
       <img onClick={setImage} srcSet={`${props.src} 2x, ${imgDefault} 1x`} className={s.img} alt='
 if you see this message, then something went wrong'
       /></NavLink>
 
-    {editMode ? <ChangeCommentContainer comment={props.comment} setEditMode={setEditMode} id={props.id}/>
-        : <p className={s.title} onDoubleClick={() => {
-          setEditMode(true)
-        }}
-        >{props.comment}</p>}
-        <div className={s.buttonContainer}>
-          <img className={s.button} src={deleteButton} onClick={deleteImage}/>
-        </div>
+    {editMode ?
+        <ChangeCommentContainer comment={props.comment} setEditMode={setEditMode} id={props.id}/>
+        : <p className={s.title} onDoubleClick={() => {setEditMode(true)}}>{props.comment}</p>
+    }
+    <div className={s.buttonContainer}>
+      <img className={s.button} src={deleteButton} onClick={deleteImage}/>
+    </div>
   </div>
 }
 

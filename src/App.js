@@ -8,7 +8,6 @@ import Footer from './component/Footer/Footer'
 import Body from './component/Body/Body'
 import UploadForm from './component/UploadForm/UploadForm'
 import ItemContainer from './component/Item/ItemContainer'
-import {DragDropContext, Droppable, Draggable} from 'react-beautiful-dnd'
 
 const App = (props) => {
   return (
