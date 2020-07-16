@@ -3,7 +3,6 @@ import s from './BodyItem.module.css'
 import ChangeCommentContainer from './ChangeCommentContainer'
 import {NavLink} from 'react-router-dom'
 import deleteButton from '../../../../assets/garbage.png'
-import imgDefault from '../../../../assets/unnamed.png'
 
 const BodyItem = (props) => {
   const [editMode, setEditMode] = useState(false)

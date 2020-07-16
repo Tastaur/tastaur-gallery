@@ -1,7 +1,6 @@
 import React from 'react'
 import {Redirect} from 'react-router-dom'
 import s from './item.module.css'
-import imgDefault from '../../assets/unnamed.png'
 
 const Item = (props) => {
   let closeImg = (e) => {
