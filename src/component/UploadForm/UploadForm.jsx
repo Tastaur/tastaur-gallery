@@ -14,7 +14,7 @@ const UploadForm = (props) => {
   }
   const [showForm, setShowForm] = useState(false)
   return <div className={s.uploadContainer}>
-    <h2 className={s.title}>You can download new picture</h2>
+    <h2 className={s.title}>You can upload new picture</h2>
     {showForm ?
         <UploadReduxForm onSubmit={addPhoto}/>
         : <button className={s.button} onClick={() => setShowForm(true)}>Download new picture</button>}
