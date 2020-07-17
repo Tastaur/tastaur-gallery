@@ -7,7 +7,7 @@ import {minLengthCreator, required} from '../../assets/validator'
 
 const minLength2 = minLengthCreator(2)
 
-const Form = ({handleSubmit}) => {
+const Form = ({handleSubmit, closeForm}) => {
   return <form onSubmit={handleSubmit} className={s.form}>
     <div className={s.item}>
       <label className={s.label}> Enter url picture</label>
@@ -29,8 +29,12 @@ const Form = ({handleSubmit}) => {
              type={`text`}
       />
     </div>
+    <div className={s.buttonContainer}>
     <button type='submit' className={s.button}>Upload</button>
+    <button onClick={closeForm} className={s.button}> Close</button>
+    </div>
   </form>
+
 }
 const UploadReduxForm = reduxForm({
   form: 'formUpload',

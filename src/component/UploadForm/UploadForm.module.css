@@ -12,12 +12,12 @@
     border-radius: 20px;
     margin-top: 5px;
     border: 2px solid dimgray;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .label{
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 16px;
     font-style: italic;
 }
 
@@ -31,7 +31,7 @@
     text-align: left;
 }
 .title{
-    margin-bottom: 10px ;
+    margin-bottom: 5px;
 }
 .button{
     width: 200px;
@@ -45,8 +45,12 @@
     font-size: 20px;
     font-style: italic;
     cursor: pointer;
-
 }
 .button:active{
     background: ivory;
+}
+.buttonContainer{
+    display: flex;
+    width: 450px;
+    justify-content: space-around;
 }

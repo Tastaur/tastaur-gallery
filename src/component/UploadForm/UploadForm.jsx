@@ -13,10 +13,13 @@ const UploadForm = (props) => {
     dispatch(reset('formUpload'))
   }
   const [showForm, setShowForm] = useState(false)
+  const closeForm = () =>{
+    setShowForm(false)
+  }
   return <div className={s.uploadContainer}>
     <h2 className={s.title}>You can upload new picture</h2>
     {showForm ?
-        <UploadReduxForm onSubmit={addPhoto}/>
+        <UploadReduxForm closeForm={closeForm} onSubmit={addPhoto}/>
         : <button className={s.button} onClick={() => setShowForm(true)}>Download new picture</button>}
   </div>
 }
