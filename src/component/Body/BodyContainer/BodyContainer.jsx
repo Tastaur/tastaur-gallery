@@ -12,7 +12,7 @@ const BodyContainer = (props) => {
                                                       src={i.src}
   />)
   return <div className={s.container}>
-    {images}
+    {props.gallery.image.length === 0 ? <h2 className={s.errorMessages}>Oops! No more photo</h2>: images}
   </div>
 }
 
