@@ -8,3 +8,10 @@
 .header .title {
     font-size: 32px;
 }
+
+@media (max-width: 500px) {
+    .header {
+        width: 200px;
+    }
+
+}

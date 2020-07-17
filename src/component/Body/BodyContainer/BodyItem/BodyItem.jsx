@@ -23,7 +23,7 @@ if you see this message, then something went wrong'
         : <p className={s.title} onDoubleClick={() => {setEditMode(true)}}>{props.comment}</p>
     }
     <div className={s.buttonContainer}>
-      <img className={s.button} src={deleteButton} onClick={deleteImage}/>
+      <img alt='delete button' className={s.button} src={deleteButton} onClick={deleteImage}/>
     </div>
   </div>
 }
