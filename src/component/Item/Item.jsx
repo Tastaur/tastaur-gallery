@@ -5,7 +5,8 @@ import s from './item.module.css'
 const Item = (props) => {
   let closeImg = (e) => {
     if (e.target.tagName != 'IMG') {
-      document.location.href = '/#/'
+      
+      props.history.goBack()
     }
   }
 
