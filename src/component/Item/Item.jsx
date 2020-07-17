@@ -10,13 +10,8 @@ const Item = (props) => {
     }
   }
 
-  return <div onClick={closeImg}>
-    {props.gallery.showImage ?
-        <div className={s.container}>
-          <img src={props.gallery.showImage[0].src} className={s.img} alt=''/>
-        </div>
-        : <Redirect to={`/`}/>
-    }
+  return <div onClick={closeImg} className={s.container}>
+    {props.gallery.showImage ? <img src={props.gallery.showImage[0].src} className={s.img} alt=''/> : <Redirect to={`/`}/>}
   </div>
 }
 export default Item
