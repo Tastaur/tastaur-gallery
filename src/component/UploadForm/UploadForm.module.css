@@ -60,7 +60,7 @@
     justify-content: space-around;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .uploadContainer {
         width: 200px;
     }
