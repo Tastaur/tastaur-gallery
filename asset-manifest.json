@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tastaur-gallery/static/css/main.faec43a2.chunk.css",
-    "main.js": "/tastaur-gallery/static/js/main.065f569d.chunk.js",
-    "main.js.map": "/tastaur-gallery/static/js/main.065f569d.chunk.js.map",
+    "main.css": "/tastaur-gallery/static/css/main.ea43649a.chunk.css",
+    "main.js": "/tastaur-gallery/static/js/main.9270cdb0.chunk.js",
+    "main.js.map": "/tastaur-gallery/static/js/main.9270cdb0.chunk.js.map",
     "runtime-main.js": "/tastaur-gallery/static/js/runtime-main.89760f57.js",
     "runtime-main.js.map": "/tastaur-gallery/static/js/runtime-main.89760f57.js.map",
-    "static/js/2.9e87992c.chunk.js": "/tastaur-gallery/static/js/2.9e87992c.chunk.js",
-    "static/js/2.9e87992c.chunk.js.map": "/tastaur-gallery/static/js/2.9e87992c.chunk.js.map",
+    "static/js/2.903a0d8e.chunk.js": "/tastaur-gallery/static/js/2.903a0d8e.chunk.js",
+    "static/js/2.903a0d8e.chunk.js.map": "/tastaur-gallery/static/js/2.903a0d8e.chunk.js.map",
     "index.html": "/tastaur-gallery/index.html",
-    "precache-manifest.eb85615f189bca7f91a5aa950bab0dc6.js": "/tastaur-gallery/precache-manifest.eb85615f189bca7f91a5aa950bab0dc6.js",
+    "precache-manifest.1e508e16f78fe6c9a4e4b30db0b45dc8.js": "/tastaur-gallery/precache-manifest.1e508e16f78fe6c9a4e4b30db0b45dc8.js",
     "service-worker.js": "/tastaur-gallery/service-worker.js",
-    "static/css/main.faec43a2.chunk.css.map": "/tastaur-gallery/static/css/main.faec43a2.chunk.css.map",
-    "static/js/2.9e87992c.chunk.js.LICENSE.txt": "/tastaur-gallery/static/js/2.9e87992c.chunk.js.LICENSE.txt",
+    "static/css/main.ea43649a.chunk.css.map": "/tastaur-gallery/static/css/main.ea43649a.chunk.css.map",
+    "static/js/2.903a0d8e.chunk.js.LICENSE.txt": "/tastaur-gallery/static/js/2.903a0d8e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tastaur-gallery/static/media/YanoneKaffeesatz-Regular.7f2b4969.ttf",
     "static/media/garbage.png": "/tastaur-gallery/static/media/garbage.e5a81464.png"
   },
   "entrypoints": [
     "static/js/runtime-main.89760f57.js",
-    "static/js/2.9e87992c.chunk.js",
-    "static/css/main.faec43a2.chunk.css",
-    "static/js/main.065f569d.chunk.js"
+    "static/js/2.903a0d8e.chunk.js",
+    "static/css/main.ea43649a.chunk.css",
+    "static/js/main.9270cdb0.chunk.js"
   ]
 }
