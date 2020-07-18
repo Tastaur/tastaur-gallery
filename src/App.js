@@ -1,13 +1,15 @@
 import React from 'react'
 import './App.css'
 import {Provider} from 'react-redux'
-import store from './store/reduxStore'
+import store, {persistor} from './store/reduxStore'
 import {HashRouter, Route} from 'react-router-dom'
 import Header from './component/Header/Header'
 import Footer from './component/Footer/Footer'
 import Body from './component/Body/Body'
 import UploadForm from './component/UploadForm/UploadForm'
 import ItemContainer from './component/Item/ItemContainer'
+import { PersistGate } from 'redux-persist/integration/react';
+
 
 const App = (props) => {
   return (
@@ -29,7 +31,9 @@ const App = (props) => {
 const GalleryApp = (props) => {
   return <HashRouter>
     <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
       <App/>
+      </PersistGate>
     </Provider>
   </HashRouter>
 }
