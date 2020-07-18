@@ -20,7 +20,7 @@ if you see this message, then something went wrong'
 
     {editMode ?
         <ChangeCommentContainer comment={props.comment} setEditMode={setEditMode} id={props.id}/>
-        : <p className={s.title} onDoubleClick={() => {setEditMode(true)}}>{props.comment}</p>
+        : <p className={s.title} onClick={() => {setEditMode(true)}}>{props.comment}</p>
     }
     <div className={s.buttonContainer}>
       <img alt='delete button' className={s.button} src={deleteButton} onClick={deleteImage}/>
