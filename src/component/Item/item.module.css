@@ -9,10 +9,12 @@
     align-items: center;
     background-color: rgba(128, 128, 128, 0.55);
     z-index: 999;
+    cursor: zoom-out;
 
 }
 
 .img {
     max-width: 80%;
     max-height: 80%;
+    cursor: default;
 }
