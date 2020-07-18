@@ -20,7 +20,7 @@ const UploadForm = (props) => {
     <h2 className={s.title}>You can upload new picture</h2>
     {showForm ?
         <UploadReduxForm closeForm={closeForm} onSubmit={addPhoto}/>
-        : <button className={s.button} onClick={() => setShowForm(true)}>Download new picture</button>}
+        : <button className={s.button} onClick={() => setShowForm(true)}>Upload new picture</button>}
   </div>
 }
 const mapStateToProps = (state) => ({
