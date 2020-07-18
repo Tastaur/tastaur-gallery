@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5754d5abf59a6378e76453a07c194385",
+    "revision": "9b85764dd18f52365109f8a3299d19fc",
     "url": "/tastaur-gallery/index.html"
   },
   {
-    "revision": "22d2732ff4ac7717b9d8",
-    "url": "/tastaur-gallery/static/css/main.4046ef5c.chunk.css"
+    "revision": "caa523a5b5c42bc9490d",
+    "url": "/tastaur-gallery/static/css/main.389dfb5c.chunk.css"
   },
   {
-    "revision": "e39d7d13e9bd121392e1",
-    "url": "/tastaur-gallery/static/js/2.903a0d8e.chunk.js"
+    "revision": "234f06a82a3457e966a0",
+    "url": "/tastaur-gallery/static/js/2.209c1494.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/tastaur-gallery/static/js/2.903a0d8e.chunk.js.LICENSE.txt"
+    "url": "/tastaur-gallery/static/js/2.209c1494.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22d2732ff4ac7717b9d8",
-    "url": "/tastaur-gallery/static/js/main.bf41bc8f.chunk.js"
+    "revision": "caa523a5b5c42bc9490d",
+    "url": "/tastaur-gallery/static/js/main.07f636f0.chunk.js"
   },
   {
     "revision": "46d562a70b697f8b3f73",
