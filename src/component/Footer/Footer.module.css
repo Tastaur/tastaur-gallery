@@ -7,3 +7,10 @@
 .footer .title{
     color: rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 500px) {
+    .footer{
+        font-size: 12px;
+        padding: 0;
+    }
+
+}
