@@ -16,4 +16,5 @@
 .img {
     max-width: 80%;
     cursor: default;
+    max-height: 100%;
 }

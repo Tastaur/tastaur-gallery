@@ -11,7 +11,7 @@ const BodyContainer = (props) => {
                                                       comment={i.comment}
                                                       src={i.src}
   />)
-  return <div className={s.container}>
+  return <div  className={s.container}>
     {props.gallery.image.length === 0 ? <h2 className={s.errorMessages}>Oops! No more photo</h2>: images}
   </div>
 }
