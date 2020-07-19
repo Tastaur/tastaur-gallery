@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce2df81c66b4a272836409224373e303",
+    "revision": "f651378287099ab61d9f4ec690da5a5a",
     "url": "/tastaur-gallery/index.html"
   },
   {
-    "revision": "12f0689b672d6ca4cc40",
-    "url": "/tastaur-gallery/static/css/main.8e7b7bdf.chunk.css"
+    "revision": "74f12d303c769bd3abc2",
+    "url": "/tastaur-gallery/static/css/main.20bb1866.chunk.css"
   },
   {
     "revision": "234f06a82a3457e966a0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tastaur-gallery/static/js/2.209c1494.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12f0689b672d6ca4cc40",
+    "revision": "74f12d303c769bd3abc2",
     "url": "/tastaur-gallery/static/js/main.146c7f44.chunk.js"
   },
   {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tastaur-gallery/static/css/main.8e7b7bdf.chunk.css",
+    "main.css": "/tastaur-gallery/static/css/main.20bb1866.chunk.css",
     "main.js": "/tastaur-gallery/static/js/main.146c7f44.chunk.js",
     "main.js.map": "/tastaur-gallery/static/js/main.146c7f44.chunk.js.map",
     "runtime-main.js": "/tastaur-gallery/static/js/runtime-main.89760f57.js",
@@ -8,9 +8,9 @@
     "static/js/2.209c1494.chunk.js": "/tastaur-gallery/static/js/2.209c1494.chunk.js",
     "static/js/2.209c1494.chunk.js.map": "/tastaur-gallery/static/js/2.209c1494.chunk.js.map",
     "index.html": "/tastaur-gallery/index.html",
-    "precache-manifest.171819a81e0d8303abbda33993854570.js": "/tastaur-gallery/precache-manifest.171819a81e0d8303abbda33993854570.js",
+    "precache-manifest.099c51a3410ba936e34e108d60cbd8d5.js": "/tastaur-gallery/precache-manifest.099c51a3410ba936e34e108d60cbd8d5.js",
     "service-worker.js": "/tastaur-gallery/service-worker.js",
-    "static/css/main.8e7b7bdf.chunk.css.map": "/tastaur-gallery/static/css/main.8e7b7bdf.chunk.css.map",
+    "static/css/main.20bb1866.chunk.css.map": "/tastaur-gallery/static/css/main.20bb1866.chunk.css.map",
     "static/js/2.209c1494.chunk.js.LICENSE.txt": "/tastaur-gallery/static/js/2.209c1494.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tastaur-gallery/static/media/YanoneKaffeesatz-Regular.7f2b4969.ttf",
     "static/media/garbage.png": "/tastaur-gallery/static/media/garbage.e5a81464.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.89760f57.js",
     "static/js/2.209c1494.chunk.js",
-    "static/css/main.8e7b7bdf.chunk.css",
+    "static/css/main.20bb1866.chunk.css",
     "static/js/main.146c7f44.chunk.js"
   ]
 }
