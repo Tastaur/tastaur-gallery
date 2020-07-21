@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tastaur-gallery/precache-manifest.2d80161f6f7e9b4b48ced3d1441e64dc.js"
+  "/tastaur-gallery/precache-manifest.945fd87877d95f81cbcb258b2b1c42cf.js"
 );
 
 self.addEventListener('message', (event) => {

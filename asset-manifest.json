@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tastaur-gallery/static/css/main.4ce131c9.chunk.css",
-    "main.js": "/tastaur-gallery/static/js/main.146c7f44.chunk.js",
-    "main.js.map": "/tastaur-gallery/static/js/main.146c7f44.chunk.js.map",
+    "main.js": "/tastaur-gallery/static/js/main.f3cccd7c.chunk.js",
+    "main.js.map": "/tastaur-gallery/static/js/main.f3cccd7c.chunk.js.map",
     "runtime-main.js": "/tastaur-gallery/static/js/runtime-main.89760f57.js",
     "runtime-main.js.map": "/tastaur-gallery/static/js/runtime-main.89760f57.js.map",
     "static/js/2.209c1494.chunk.js": "/tastaur-gallery/static/js/2.209c1494.chunk.js",
     "static/js/2.209c1494.chunk.js.map": "/tastaur-gallery/static/js/2.209c1494.chunk.js.map",
     "index.html": "/tastaur-gallery/index.html",
-    "precache-manifest.2d80161f6f7e9b4b48ced3d1441e64dc.js": "/tastaur-gallery/precache-manifest.2d80161f6f7e9b4b48ced3d1441e64dc.js",
+    "precache-manifest.945fd87877d95f81cbcb258b2b1c42cf.js": "/tastaur-gallery/precache-manifest.945fd87877d95f81cbcb258b2b1c42cf.js",
     "service-worker.js": "/tastaur-gallery/service-worker.js",
     "static/css/main.4ce131c9.chunk.css.map": "/tastaur-gallery/static/css/main.4ce131c9.chunk.css.map",
     "static/js/2.209c1494.chunk.js.LICENSE.txt": "/tastaur-gallery/static/js/2.209c1494.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.89760f57.js",
     "static/js/2.209c1494.chunk.js",
     "static/css/main.4ce131c9.chunk.css",
-    "static/js/main.146c7f44.chunk.js"
+    "static/js/main.f3cccd7c.chunk.js"
   ]
 }
