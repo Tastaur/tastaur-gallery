@@ -18,7 +18,7 @@ const BodyItem = (props) => {
 if you see this message, then something went wrong'
       /></NavLink>
 
-    {editMode ?
+    {editMode || props.comment.length===0 ?
         <ChangeCommentContainer comment={props.comment} setEditMode={setEditMode} id={props.id}/>
         : <p className={s.title} onClick={() => {setEditMode(true)}}>{props.comment}</p>
     }
